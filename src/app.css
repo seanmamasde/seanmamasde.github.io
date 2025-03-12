@@ -1,0 +1,110 @@
+:root {
+	font-family: 'JetBrains Mono', Inter, Helvetica, Arial, sans-serif;
+	font-weight: 600;
+
+	--background-primary: #1f1f1f;
+	--background-secondary: #444444;
+	--accent-primary: #888888;
+	--accent-secondary: #cccccc;
+	--text-primary: #ffffff;
+	--text-secondary: #ffffff88;
+
+	--font-size-title: 64px;
+	--font-size-subtitle: 40px;
+	--font-size-text-heading: 28px;
+	--font-size-text-subheading: 24px;
+	--font-size-text-body: 18px;
+	--font-size-text-small: 12px;
+
+	--accent-pink: #c53b70;
+	--accent-zenn: #3ea8ff;
+	--accent-mode: white;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+[data-theme='light'] {
+	--background-primary: #eeeeee;
+	--background-secondary: #cccccc;
+	--accent-primary: #777777;
+	--accent-secondary: #999999;
+	--text-primary: #000000;
+	--text-secondary: #30303077;
+
+	--accent-mode: black;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--background-primary);
+}
+
+canvas {
+	position: fixed !important;
+	left: 0;
+	top: 0;
+}
+
+p,
+ul,
+li,
+h1 {
+	margin: 0;
+	padding: 0;
+	color: var(--text-primary);
+	font-size: var(--font-size-text-body);
+}
+
+h1 {
+	font-size: var(--font-size-text-heading);
+}
+
+a {
+	font-family: 'JetBrains Mono';
+	color: var(--accent-primary);
+	transition: 250ms;
+}
+
+a:hover {
+	color: var(--accent-secondary);
+}
+
+.button {
+	padding: 15px 30px;
+	font-family: 'JetBrains Mono';
+	font-weight: 800;
+	letter-spacing: 3px;
+	color: var(--text-primary);
+	background-color: var(--accent-primary);
+	border: none;
+	outline: none;
+	transform: skew(-8deg);
+	border-radius: 10px;
+	transition: 250ms;
+}
+
+.button {
+	color: var(--text-primary);
+	text-decoration: none;
+}
+
+.button:hover {
+	cursor: pointer;
+	color: var(--text-primary);
+	background-color: var(--accent-secondary);
+}
+
+@media only screen and (max-width: 800px) {
+	:root {
+		--font-size-title: 52px;
+	}
+}

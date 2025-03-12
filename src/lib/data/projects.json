@@ -1,0 +1,68 @@
+{
+	"projects": [
+		{
+			"name": "Scoop C++",
+			"descr": "Various scoop utilities, rewritten in C++ for performance",
+			"img": "/assets/scoop.png",
+			"scale": "0.3",
+			"url": "https://github.com/seanmamasde/scoop_cpp",
+			"tech": "c++"
+		},
+		{
+			"name": "NYCU Linebot",
+			"descr": "LINE chatbot for NYCU students, it handles natural language processing!",
+			"img": "/assets/nycu-linebot.png",
+			"scale": "0.48",
+			"url": "https://line.me/R/ti/p/@432ejleo",
+			"tech": "python"
+		},
+		{
+			"name": "Badminton Court Reserver",
+			"descr": "Design concept for a badminton court reservation system",
+			"img": "/assets/badminton.png",
+			"scale": "0.8",
+			"url": "https://github.com/seanmamasde/badminton_court_reserver",
+			"tech": "react"
+		},
+		{
+			"name": "GridClock Screensaver",
+			"descr": "Minimalistic clock screensaver for Windows",
+			"img": "/assets/gridclock-scr.png",
+			"scale": "0.15",
+			"url": "https://github.com/seanmamasde/gridclock-scr",
+			"tech": "tauri"
+		},
+		{
+			"name": "JPEG Decoder",
+			"descr": "Baseline JPEG decoder, written in C++.",
+			"img": "/assets/jpeg-decoder.png",
+			"scale": "0.90",
+			"url": "https://github.com/seanmamasde/jpeg-decoder",
+			"tech": "c++"
+		},
+		{
+			"name": "Debt Collector",
+			"descr": "Accounting bot for LINE group chats, it helps you keep track of your money",
+			"img": "/assets/debt-collector.png",
+			"scale": "0.45",
+			"url": "https://github.com/seanmamasde/debt_collector",
+			"tech": "python"
+		},
+		{
+			"name": "Personal Site",
+			"descr": "Personal website, built with Svelte",
+			"img": "/assets/my-site.png",
+			"scale": "0.24",
+			"url": "https://github.com/seanmamasde/seanmamasde.github.io",
+			"tech": "svelte"
+		},
+		{
+			"name": "batbar.wezterm",
+			"descr": "A wezterm tab bar, including battery status",
+			"img": "/assets/batbar.png",
+			"scale": "0.35",
+			"url": "https://github.com/seanmamasde/batbar.wezterm",
+			"tech": "lua"
+		}
+	]
+}

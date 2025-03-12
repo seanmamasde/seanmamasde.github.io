@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link
+			href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+		/>
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="descr" content="Hi, my name is seanmamasde!" />
+		<!-- <meta name="theme-color" content="#0578F0" /> -->
+
+		<title>seanmamasde</title>
+		%sveltekit.head%
+
+		<!-- Favicon -->
+		<script>
+			const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+			function updateFavicon(e) {
+				const darkMode = e ? e.matches : mediaQuery.matches;
+				const faviconUrl = darkMode
+					? '%sveltekit.assets%/favicon_white.png'
+					: '%sveltekit.assets%/favicon_black.png';
+
+				let link = document.querySelector("link[rel='icon']");
+				if (!link) {
+					link = document.createElement('link');
+					link.rel = 'icon';
+					document.head.appendChild(link);
+				}
+				link.type = 'image/png';
+				link.href = faviconUrl;
+			}
+
+			updateFavicon();
+
+			if (mediaQuery.addEventListener) {
+				mediaQuery.addEventListener('change', updateFavicon);
+			} else if (mediaQuery.addListener) {
+				mediaQuery.addListener(updateFavicon);
+			}
+		</script>
+
+		<!-- Theme toggle script -->
+		<script>
+			(function () {
+				try {
+					const theme = localStorage.getItem('theme');
+					if (theme) {
+						document.documentElement.setAttribute('data-theme', theme);
+					}
+				} catch (e) {}
+			})();
+		</script>
+	</head>
+
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

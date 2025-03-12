@@ -1,0 +1,68 @@
+{
+	"skills": [
+		{
+			"name": "Programming & Software Development",
+			"lvl": 90,
+			"tech": [
+				"c++",
+				"python",
+				"javascript",
+				"typescript",
+				"neovim",
+				"vscode",
+				"git",
+				"github",
+				"mongodb",
+				"mysql",
+				"firebase"
+			]
+		},
+		{
+			"name": "Linux & Cloud Computing",
+			"lvl": 90,
+			"tech": [
+				"fedora",
+				"debian",
+				"gcp",
+				"azure",
+				"vmware",
+				"bash",
+				"powershell",
+				"docker",
+				"wsl",
+				"ssh"
+			]
+		},
+		{
+			"name": "Machine Learning & Data Science",
+			"lvl": 85,
+			"tech": ["pytorch", "pandas", "numpy", "scikit-learn", "matplotlib", "kaggle", "anaconda"]
+		},
+		{
+			"name": "Photo/Video Editing, 3D Modeling & Animation",
+			"lvl": 60,
+			"tech": ["figma", "illustrator", "photoshop", "premiere pro", "after effects", "blender"]
+		},
+		{
+			"name": "Game Development",
+			"lvl": 20,
+			"tech": ["unity", "unreal engine", "c#", "lua", "c++"]
+		},
+		{
+			"name": "Web2/Web3 Development",
+			"lvl": 50,
+			"tech": [
+				"html",
+				"css",
+				"javascript",
+				"typescript",
+				"react",
+				"svelte",
+				"nodejs",
+				"express",
+				"solidity",
+				"hardhat"
+			]
+		}
+	]
+}
