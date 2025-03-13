@@ -1,9 +1,9 @@
 <script lang="ts">
-	import Home from '$lib/sections/Home.svelte';
-	import About from '$lib/sections/About.svelte';
-	import Projects from '$lib/sections/Projects.svelte';
-	import Skills from '$lib/sections/Skills.svelte';
-	import Footer from '$lib/sections/Footer.svelte';
+	import Home from '$lib/sections/home.svelte';
+	import About from '$lib/sections/about.svelte';
+	import Projects from '$lib/sections/projects.svelte';
+	import Skills from '$lib/sections/skills.svelte';
+	import Footer from '$lib/sections/footer.svelte';
 	import { onMount } from 'svelte';
 
 	// page scrolling

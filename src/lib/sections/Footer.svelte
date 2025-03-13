@@ -1,7 +1,7 @@
 <script lang="ts">
 	import personal_icon_black from '$lib/assets/personal_icon_black.svg';
 	import personal_icon_white from '$lib/assets/personal_icon_white.svg';
-	import { theme } from '$lib/tools/ThemeStore.ts';
+	import { theme } from '$lib/tools/themeStore.ts';
 </script>
 
 <main>

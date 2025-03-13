@@ -10,7 +10,7 @@
 
 	import { onMount } from 'svelte';
 	import Typed from 'typed.js';
-	import { theme } from '$lib/tools/ThemeStore.ts';
+	import { theme } from '$lib/tools/themeStore.ts';
 
 	// typing effect
 	let typedInstance: Typed;

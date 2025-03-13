@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getColor, getIcon } from './TechMapping.ts';
+	import { getColor, getIcon } from './techMapping.ts';
 	import { onMount } from 'svelte';
 
 	export let tech = '';

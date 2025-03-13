@@ -1,5 +1,5 @@
 <script lang="ts">
-	import TechLabel from './TechLabel.svelte';
+	import TechLabel from './techLabel.svelte';
 
 	export let img = '';
 	export let scale = '1';

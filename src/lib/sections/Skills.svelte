@@ -1,6 +1,6 @@
 <script lang="ts">
-	import SkillCard from '$lib/tools/SkillCard.svelte';
-	import TechLabel from '$lib/tools/TechLabel.svelte';
+	import SkillCard from '$lib/tools/skillCard.svelte';
+	import TechLabel from '$lib/tools/techLabel.svelte';
 
 	import skillsJSON from '$lib/data/skills.json';
 

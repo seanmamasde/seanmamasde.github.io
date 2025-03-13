@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ProjectCard from '$lib/tools/ProjectCard.svelte';
+	import ProjectCard from '$lib/tools/projectCard.svelte';
 
 	import projectsJSON from '$lib/data/projects.json';
 
@@ -16,12 +16,10 @@
 
 	<div id="cards">
 		{#each projects as project}
-			<!-- <div data-animate> -->
 			<ProjectCard img={project.img} scale={project.scale} url={project.url} tech={project.tech}>
 				<span slot="title">{project.name}</span>
 				<span slot="descr">{project.descr}</span>
 			</ProjectCard>
-			<!-- </div> -->
 		{/each}
 	</div>
 </main>
