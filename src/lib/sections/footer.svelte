@@ -18,8 +18,7 @@
 					rel="noopener noreferrer"
 				>
 					[on my GitHub]
-				</a>
-				,
+				</a>,
 			</p>
 			<p>
 				Licensed under the
@@ -29,8 +28,7 @@
 					rel="noopener noreferrer"
 				>
 					[GPLv3 Free Software License]
-				</a>
-				.
+				</a>.
 			</p>
 		</div>
 	</div>

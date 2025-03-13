@@ -53,7 +53,7 @@
 	function handleScroll() {
 		const height = (window.innerHeight / 4) * 3; // 75% of the window height
 		const scrollY = window.scrollY;
-		// When scrollY reaches 80% of the window height, opacity will be 0
+		// When scrollY reaches 75% of the window height, opacity will be 0
 		opacity = Math.max(0, 1 - scrollY / height);
 	}
 </script>
